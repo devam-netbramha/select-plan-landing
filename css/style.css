@@ -177,7 +177,8 @@
   padding: 11px 20px;
   text-align: center;
   font-family: "Intro";
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 14px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.32px;
@@ -300,6 +301,9 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
+}
+.pricingTable--note.primary {
+  background-color: #E6F6FA;
 }
 .pricingTable--note .blue {
   color: #00A6CA;
@@ -670,6 +674,9 @@
     font-weight: 600;
     border-radius: 7px 7px 0px 0px;
   }
+  .plan-tabs .nav-item .popular-tag.dark {
+    background-color: #004364;
+  }
   .plan-tabs .nav-item .prices {
     display: flex;
     align-items: center;
@@ -801,5 +808,210 @@
   }
   .appCta--download .item > img {
     display: none;
+  }
+}
+.new-plan .table {
+  text-align: center;
+  margin-bottom: 0;
+}
+.new-plan .table .white-bg {
+  background-color: #fff;
+}
+.new-plan .table .dark-border {
+  border-right: 1px solid #004364;
+}
+.new-plan .table .no-border td {
+  border: none;
+  padding: 0;
+  vertical-align: bottom;
+}
+.new-plan .table .no-border td .popular-tag {
+  background-color: #004364;
+  margin-bottom: 0px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  border-radius: 7px 7px 0px 0px;
+  padding: 7px 18px;
+}
+.new-plan .table .no-border td .popular-tag .icon {
+  margin-right: 8px;
+}
+.new-plan .table .no-border td .discount-tag {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  background: #fcd800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px 7px 0px 0px;
+  margin-bottom: 0px;
+}
+.new-plan .table .no-border td .bottom-link {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #F16E33;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  padding: 24px 0;
+  text-align: center;
+  display: block;
+}
+.new-plan .table thead {
+  border-top: none;
+}
+.new-plan .table thead .heading-main {
+  text-align: left;
+  width: 410px;
+}
+.new-plan .table thead .heading-main .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.new-plan .table thead .heading-main .desc {
+  color: #595959;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 0;
+  text-align: left;
+}
+.new-plan .table tbody {
+  background-color: #fff;
+}
+.new-plan .table tbody tr:last-child td:last-child {
+  border-bottom: 1px solid #004364;
+}
+.new-plan .table td {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  vertical-align: middle;
+}
+.new-plan .table td.heading-flex {
+  vertical-align: bottom;
+}
+.new-plan .table td .top.with-tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-plan .table td .top.with-tooltip .tooltip-pop {
+  margin-left: 4px;
+  cursor: pointer;
+}
+.new-plan .table td .top .small {
+  font-family: "Intro";
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.28px;
+  margin-bottom: 8px;
+}
+.new-plan .table td .top .small + .big {
+  margin-top: 8px;
+}
+.new-plan .table td .top .big {
+  font-family: "Intro";
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.22px;
+  margin-bottom: 16px;
+}
+.new-plan .table td .top .type {
+  font-family: "Intro";
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+}
+.new-plan .table td .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 14px;
+  height: 92px;
+}
+.new-plan .table td .bottom .discountChips {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Intro";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  background-color: #CCDBE3;
+  padding: 10px 12px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.new-plan .table td .bottom .price {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  margin-bottom: 2px;
+}
+.new-plan .table td .bottom .price-old {
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+.new-plan .table .feature-list {
+  max-width: 410px;
+}
+.new-plan .table .feature-list .title {
+  text-align: left;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.32px;
+  margin-bottom: 0;
+}
+.new-plan-title {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  max-width: 788px;
+  margin: 24px auto 50px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .new-plan-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.new-plan-info {
+  color: #161616;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+@media (max-width: 992px) {
+  .new-plan-info {
+    font-size: 18px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
