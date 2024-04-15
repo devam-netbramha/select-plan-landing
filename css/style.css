@@ -143,6 +143,34 @@
   font-weight: 400;
   font-style: normal;
 }
+.customBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 11px 20px;
+  text-align: center;
+  font-family: "Intro";
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  background-color: #FCD800;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.customBtn:hover {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.customBtn--border {
+  background-color: #fff;
+  border: 2px solid #FCD800;
+}
+
 .pricingTable {
   padding: 80px 0 20px;
   background: linear-gradient(0deg, rgba(229, 246, 250, 0) 0%, rgba(229, 246, 250, 0.34) 31.04%, #E5F6FA 100%);
@@ -168,29 +196,6 @@
   line-height: 24px;
   letter-spacing: 0.32px;
   margin: 12px auto 55px;
-}
-.pricingTable .customBtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  padding: 11px 20px;
-  text-align: center;
-  font-family: "Intro";
-  font-size: 14px;
-  line-height: 14px;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.32px;
-  color: #2c2c2c;
-  text-transform: uppercase;
-  background-color: #FCD800;
-  border-radius: 25px;
-  text-decoration: none;
-}
-.pricingTable .customBtn--border {
-  background-color: #fff;
-  border: 2px solid #FCD800;
 }
 .pricingTable--row {
   display: flex;
@@ -454,6 +459,11 @@
   letter-spacing: 0.32px;
   margin: 12px 0 28px;
 }
+.appCta .customBtn {
+  display: inline-flex;
+  padding: 12px 24px;
+  line-height: 24px;
+}
 .appCta--form label {
   font-family: "Intro";
   font-size: 16px;
@@ -523,6 +533,9 @@
 }
 .appCta--download .item a {
   margin-right: 16px;
+}
+.appCta--download .item a img {
+  height: 44px;
 }
 .appCta--download .item .qr {
   height: 40px;
