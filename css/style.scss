@@ -281,10 +281,14 @@
       line-height: 26px;
       color: #262626;
       letter-spacing: 0.4px;
-      margin-bottom: 30px;
+      margin-bottom: 38px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      &.withChips {
+        margin-bottom: 30px;
+      }
 
       .discountChips {
         text-align: center;
@@ -782,7 +786,7 @@
         border-radius: 7px 7px 0px 0px;
 
         &.dark {
-          background-color: #004364;
+          background-color: #00A6CA;
         }
       }
 
@@ -981,7 +985,7 @@
     }
 
     .dark-border {
-      border-right: 1px solid #004364;
+      border-right: 1px solid #00A6CA;
     }
 
     .no-border {
@@ -991,7 +995,7 @@
         vertical-align: bottom;
 
         .popular-tag {
-          background-color: #004364;
+          background-color: #00A6CA;
           margin-bottom: 0px;
           color: #fff;
           display: flex;
@@ -1062,6 +1066,18 @@
           text-align: left;
         }
       }
+
+      .popular {
+        position: relative;
+        border-top: 1px solid #00A6CA;
+        ;
+
+        .popularChips {
+          position: absolute;
+          right: -34px;
+          top: -34px;
+        }
+      }
     }
 
     tbody {
@@ -1111,7 +1127,8 @@
           letter-spacing: 0.28px;
           margin-bottom: 8px;
 
-          &+.big {
+          &+.big,
+          .price-chips {
             margin-top: 8px;
           }
         }
@@ -1133,27 +1150,37 @@
         }
       }
 
+      .price-chips {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .big {
+          margin-bottom: 0;
+        }
+      }
+
+      .discountChips {
+        width: fit-content;
+        font-family: 'Intro';
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: 0.32px;
+        background-color: #CCDBE3;
+        padding: 5px 9px;
+        border-radius: 30px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       .bottom {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin-top: 14px;
-        height: 92px;
-
-        .discountChips {
-          width: fit-content;
-          font-family: 'Intro';
-          font-size: 14px;
-          line-height: 1.2;
-          font-weight: 400;
-          letter-spacing: 0.32px;
-          background-color: #CCDBE3;
-          padding: 10px 12px;
-          border-radius: 30px;
-          margin-bottom: 20px;
-          margin-left: auto;
-          margin-right: auto;
-        }
+        // height: 92px;
 
         .price {
           font-size: 20px;

@@ -247,10 +247,13 @@
   line-height: 26px;
   color: #262626;
   letter-spacing: 0.4px;
-  margin-bottom: 30px;
+  margin-bottom: 38px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.pricingTable--body-type.withChips {
+  margin-bottom: 30px;
 }
 .pricingTable--body-type .discountChips {
   text-align: center;
@@ -688,7 +691,7 @@
     border-radius: 7px 7px 0px 0px;
   }
   .plan-tabs .nav-item .popular-tag.dark {
-    background-color: #004364;
+    background-color: #00A6CA;
   }
   .plan-tabs .nav-item .prices {
     display: flex;
@@ -831,7 +834,7 @@
   background-color: #fff;
 }
 .new-plan .table .dark-border {
-  border-right: 1px solid #004364;
+  border-right: 1px solid #00A6CA;
 }
 .new-plan .table .no-border td {
   border: none;
@@ -839,7 +842,7 @@
   vertical-align: bottom;
 }
 .new-plan .table .no-border td .popular-tag {
-  background-color: #004364;
+  background-color: #00A6CA;
   margin-bottom: 0px;
   color: #fff;
   display: flex;
@@ -902,6 +905,15 @@
   margin-bottom: 0;
   text-align: left;
 }
+.new-plan .table thead .popular {
+  position: relative;
+  border-top: 1px solid #00A6CA;
+}
+.new-plan .table thead .popular .popularChips {
+  position: absolute;
+  right: -34px;
+  top: -34px;
+}
 .new-plan .table tbody {
   background-color: #fff;
 }
@@ -937,7 +949,8 @@
   letter-spacing: 0.28px;
   margin-bottom: 8px;
 }
-.new-plan .table td .top .small + .big {
+.new-plan .table td .top .small + .big,
+.new-plan .table td .top .small .price-chips {
   margin-top: 8px;
 }
 .new-plan .table td .top .big {
@@ -954,27 +967,34 @@
   font-weight: 400;
   letter-spacing: 0.36px;
 }
+.new-plan .table td .price-chips {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.new-plan .table td .price-chips .big {
+  margin-bottom: 0;
+}
+.new-plan .table td .discountChips {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Intro";
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  background-color: #CCDBE3;
+  padding: 5px 9px;
+  border-radius: 30px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 .new-plan .table td .bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 14px;
-  height: 92px;
-}
-.new-plan .table td .bottom .discountChips {
-  width: -moz-fit-content;
-  width: fit-content;
-  font-family: "Intro";
-  font-size: 14px;
-  line-height: 1.2;
-  font-weight: 400;
-  letter-spacing: 0.32px;
-  background-color: #CCDBE3;
-  padding: 10px 12px;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .new-plan .table td .bottom .price {
   font-size: 20px;
