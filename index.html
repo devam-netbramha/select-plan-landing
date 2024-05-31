@@ -231,7 +231,7 @@
             <div class="pricingTable--container">
               <div class="pricingTable--body popular">
                 <div class="popularChips">
-                  <img class="img-fluid" src="./images/popuar-chips.svg" alt="popular plan">
+                  <img class="img-fluid" src="./images/popular-chips.svg" alt="popular plan">
                 </div>
                 <p class="pricingTable--body-name">Premium</p>
                 <p class="pricingTable--body-price">₹1,200</p>
@@ -332,336 +332,338 @@
         </div>
 
         <!-- mobile screen pricing table -->
-        <div class="plan-tabs-container hide-lg-up">
-          <ul class="nav nav-tabs plan-tabs" id="plansTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="starter-tab" data-toggle="tab" data-target="#starter" type="button" role="tab" aria-controls="starter" aria-selected="true">
-                <p class="plan-name">Starter</p>
-                <p class="plan-duration">Single Purchase</p>
-                <div class="prices">
-                  <span class="plan-price">₹118</span>
-                </div>
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="basic-tab" data-toggle="tab" data-target="#basic" type="button" role="tab" aria-controls="basic" aria-selected="true">
-                <p class="plan-name">Basic</p>
-                <p class="plan-duration">1 <br /> Month</p>
-                <div class="prices">
-                  <span class="plan-price">₹550</span>
-                </div>
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link " id="standard-tab" data-toggle="tab" data-target="#standard" type="button" role="tab" aria-controls="standard" aria-selected="true">
-                <p class="plan-name">Standard</p>
-                <p class="plan-duration">6 <br /> Months</p>
-                <div class="prices">
-                  <span class="plan-price">₹800</span>
-                </div>
-                <span class="discount">Save 75%</span>
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link " id="premium-tab" data-toggle="tab" data-target="#premium" type="button" role="tab" aria-controls="premium" aria-selected="true">
-                <p class="plan-name">Premium</p>
-                <p class="plan-duration">12 Months</p>
-                <div class="prices">
-                  <span class="plan-price ">₹1,200</span>
-                </div>
-                <p class="popular-tag">Most Popular</p>
-                <span class="discount">Save 81%</span>
-              </button>
-            </li>
-          </ul>
-          <div class="tab-content plan-tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="starter" role="tabpanel" aria-labelledby="starter-tab">
-              <div class="pricingTable--body-features">
-                <p class="featuresTitle">Features Includes:</p>
-                <ul class="pricingTable--body-features-listing">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Credit Report</span>
-                  </li>
-                </ul>
-              </div>
-              <hr class="horizontal-seperator">
-              <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+        <div class="plan-accordion hide-lg-up" id="plan-accordion">
+          <div class="plan-accordion-card premium">
+            <p class="plan-accordion-card-tag">Premium</p>
+            <div class="popularChips">
+              <img class="img-fluid" src="./images/popular-mobile-chips.svg" alt="popular plan">
             </div>
-            <div class="tab-pane fade" id="basic" role="tabpanel" aria-labelledby="basic-tab">
-              <div class="pricingTable--body-features">
-                <p class="featuresTitle">Features Includes:</p>
-                <ul class="pricingTable--body-features-listing">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Credit Report</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Score</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Score Simulator</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Score History</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Where You Stand</span>
-                  </li>
-                </ul>
-              </div>
-              <hr class="horizontal-seperator">
-              <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+            <div class="plan-accordion-card-pricing">
+              <span class="price">₹1,200</span>
+              <span class="duration">/ 12 Months</span>
+              <span class="discountChips">Save 81%</span>
             </div>
-            <div class="tab-pane fade " id="standard" role="tabpanel" aria-labelledby="standard-tab">
-              <div class="pricingTable--body-features">
-                <p class="featuresTitle">Features Includes:</p>
-                <ul class="pricingTable--body-features-listing">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Credit Report</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Score</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Score Simulator</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Score History</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Where You Stand</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Alerts</span>
-                  </li>
-                </ul>
-              </div>
-              <hr class="horizontal-seperator">
-              <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+            <p class="plan-accordion-card-info">Unlimited access to all CIBIL features for one year.</p>
+            <div class="plan-accordion-card-cta">
+              <a class="customBtn" href="#">Get Started</a>
             </div>
-            <div class="tab-pane fade " id="premium" role="tabpanel" aria-labelledby="premium-tab">
-              <div class="pricingTable--body-features">
-                <p class="featuresTitle">Features Includes:</p>
-                <ul class="pricingTable--body-features-listing">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Credit Report</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Score</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Score Simulator</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Score History</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>Where You Stand</span>
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <g clip-path="url(#clip0_290_529)">
-                        <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
-                        <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_290_529">
-                          <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                    <span>CIBIL Alerts</span>
-                  </li>
-                </ul>
-              </div>
-              <hr class="horizontal-seperator">
-              <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+            <div class="plan-accordion-card-action" data-toggle="collapse" data-target="#premiumPlan" aria-expanded="false" aria-controls="premiumPlan">
+              <p>Features you can access</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                  <rect width="24" height="24" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_842_1574)">
+                  <path d="M12 15.0387L6.34619 9.38488L7.40002 8.33105L12 12.9311L16.6 8.33105L17.6538 9.38488L12 15.0387Z" fill="#262626" />
+                </g>
+              </svg>
+            </div>
+            <div id="premiumPlan" class="collapse" aria-labelledby="headingOne" data-parent="#plan-accordion">
+              <ul class="pricingTable--body-features-listing">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Credit Report</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Score</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Score Simulator</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Score History</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Where You Stand</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Alerts</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="plan-accordion-card standard">
+            <p class="plan-accordion-card-tag">Standard</p>
+            <div class="plan-accordion-card-pricing">
+              <span class="price">₹800</span>
+              <span class="duration">/ 6 Months</span>
+              <span class="discountChips">Save 75%</span>
+            </div>
+            <p class="plan-accordion-card-info">Unlimited access to all CIBIL features for 6 months.</p>
+            <div class="plan-accordion-card-cta">
+              <a class="customBtn customBtn--border" href="#">Get Started</a>
+            </div>
+            <div class="plan-accordion-card-action" data-toggle="collapse" data-target="#standardPlan" aria-expanded="true" aria-controls="standardPlan">
+              <p>Features you can access</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                  <rect width="24" height="24" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_842_1574)">
+                  <path d="M12 15.0387L6.34619 9.38488L7.40002 8.33105L12 12.9311L16.6 8.33105L17.6538 9.38488L12 15.0387Z" fill="#262626" />
+                </g>
+              </svg>
+            </div>
+            <div id="standardPlan" class="collapse show" aria-labelledby="headingTwo" data-parent="#plan-accordion">
+              <ul class="pricingTable--body-features-listing">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Credit Report</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Score</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Score Simulator</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Score History</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Where You Stand</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Alerts</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="plan-accordion-card standard">
+            <p class="plan-accordion-card-tag">Basic</p>
+            <div class="plan-accordion-card-pricing">
+              <span class="price">₹550</span>
+              <span class="duration">/ 1 Months</span>
+              <span class="discountChips">Save 75%</span>
+            </div>
+            <p class="plan-accordion-card-info">Unlimited access to all CIBIL features for 30 days.</p>
+            <div class="plan-accordion-card-cta">
+              <a class="customBtn customBtn--border" href="#">Get Started</a>
+            </div>
+            <div class="plan-accordion-card-action" data-toggle="collapse" data-target="#basicPlan" aria-expanded="false" aria-controls="basicPlan">
+              <p>Features you can access</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                  <rect width="24" height="24" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_842_1574)">
+                  <path d="M12 15.0387L6.34619 9.38488L7.40002 8.33105L12 12.9311L16.6 8.33105L17.6538 9.38488L12 15.0387Z" fill="#262626" />
+                </g>
+              </svg>
+            </div>
+            <div id="basicPlan" class="collapse" aria-labelledby="headingThree" data-parent="#plan-accordion">
+              <ul class="pricingTable--body-features-listing">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Credit Report</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>CIBIL Score</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Score Simulator</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Score History</span>
+                </li>
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <g clip-path="url(#clip0_290_529)">
+                      <path d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z" fill="#00A6CA" />
+                      <path d="M4.4375 7.89963L7.07257 10.6665L12.3427 5.13281" stroke="white" stroke-width="1.77867" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_290_529">
+                        <rect width="16" height="16" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span>Where You Stand</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="plan-accordion-card starter">
+            <p class="plan-accordion-card-tag">Starter</p>
+            <div class="plan-accordion-card-pricing">
+              <span class="price">₹118</span>
+              <span class="duration">/ Single Purchase</span>
+            </div>
+            <p class="plan-accordion-card-info">Access your latest credit report. <br /><i>CIBIL score is <b>NOT</b> available with Starter Plan.</i></p>
+            <div class="plan-accordion-card-cta">
+              <a class="customBtn customBtn--border" href="#">Get Started</a>
             </div>
           </div>
         </div>
@@ -669,7 +671,7 @@
         <p class="pricingTable--note"><span class="blue">Note:</span> The free annual report is available only once a calendar year.</p>
       </div>
     </section>
-    <section class="stepper">
+    <section class="stepper hide-md-down">
       <div class="container">
         <div class="stepper--body">
           <div class="item">
