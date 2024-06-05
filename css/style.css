@@ -1176,4 +1176,26 @@
 }
 .plan-accordion-card ul {
   margin-top: 20px;
+}
+
+.header {
+  padding: 20px 0;
+}
+.header-logo {
+  width: 80px;
+  display: block;
+}
+.header-logo img {
+  width: 100%;
+}
+.header-action {
+  text-align: right;
+}
+.header-action .customBtn {
+  display: inline-flex;
+  transition: all 0.2s ease-in;
+}
+.header-action .customBtn:hover {
+  background-color: #004364;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

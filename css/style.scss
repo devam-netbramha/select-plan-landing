@@ -1394,3 +1394,31 @@
     }
   }
 }
+
+// header css
+.header {
+  padding: 20px 0;
+
+  &-logo {
+    width: 80px;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &-action {
+    text-align: right;
+
+    .customBtn {
+      display: inline-flex;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        background-color: #004364;
+        color: #fff;
+      }
+    }
+  }
+}
