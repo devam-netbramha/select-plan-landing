@@ -347,7 +347,7 @@
             <div class="plan-accordion-card-cta">
               <a class="customBtn" href="#">Get Started</a>
             </div>
-            <div class="plan-accordion-card-action" data-toggle="collapse" data-target="#premiumPlan" aria-expanded="false" aria-controls="premiumPlan">
+            <div class="plan-accordion-card-action">
               <p>Features you can access</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -358,7 +358,7 @@
                 </g>
               </svg>
             </div>
-            <div id="premiumPlan" class="collapse" aria-labelledby="headingOne" data-parent="#plan-accordion">
+            <div id="premiumPlan" class="collapse plan-accordion-card-collapse">
               <ul class="pricingTable--body-features-listing">
                 <li>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -458,7 +458,7 @@
             <div class="plan-accordion-card-cta">
               <a class="customBtn customBtn--border" href="#">Get Started</a>
             </div>
-            <div class="plan-accordion-card-action" data-toggle="collapse" data-target="#standardPlan" aria-expanded="true" aria-controls="standardPlan">
+            <div class="plan-accordion-card-action" id="standardPlanAction">
               <p>Features you can access</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -469,7 +469,7 @@
                 </g>
               </svg>
             </div>
-            <div id="standardPlan" class="collapse show" aria-labelledby="headingTwo" data-parent="#plan-accordion">
+            <div id="standardPlan" class="collapse plan-accordion-card-collapse">
               <ul class="pricingTable--body-features-listing">
                 <li>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -569,7 +569,7 @@
             <div class="plan-accordion-card-cta">
               <a class="customBtn customBtn--border" href="#">Get Started</a>
             </div>
-            <div class="plan-accordion-card-action" data-toggle="collapse" data-target="#basicPlan" aria-expanded="false" aria-controls="basicPlan">
+            <div class="plan-accordion-card-action">
               <p>Features you can access</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -580,7 +580,7 @@
                 </g>
               </svg>
             </div>
-            <div id="basicPlan" class="collapse" aria-labelledby="headingThree" data-parent="#plan-accordion">
+            <div id="basicPlan" class="collapse plan-accordion-card-collapse">
               <ul class="pricingTable--body-features-listing">
                 <li>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -759,6 +759,22 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(".plan-accordion-card-action").click(function () {
+        $('.active').not(this).removeClass('active').next().hide(300);
+
+        $(this).toggleClass('active');
+        if (false == $(this).next().is(':visible')) {
+          $('plan-accordion-card-collapse').slideUp(300);
+        }
+        $(this).next().slideToggle(300);
+      });
+
+      var animationIsOff = $.fx.off;
+      $.fx.off = true;
+      $('#standardPlanAction:eq(0)').click()
+      $.fx.off = animationIsOff;
+    </script>
   </body>
 
 </html>

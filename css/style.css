@@ -1162,7 +1162,7 @@
 .plan-accordion-card-action svg {
   transition: all 0.3s ease-in;
 }
-.plan-accordion-card-action[aria-expanded=true] svg {
+.plan-accordion-card-action.active svg {
   rotate: 180deg;
 }
 .plan-accordion-card-action > p {

@@ -1371,7 +1371,7 @@
           transition: all 0.3s ease-in;
         }
 
-        &[aria-expanded=true] {
+        &.active {
           svg {
             rotate: 180deg;
           }
