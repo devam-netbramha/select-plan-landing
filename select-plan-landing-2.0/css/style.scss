@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Intro';
-  src: url("../fonts/2CA963-6-0.woff2") format("woff2"), url("../fonts/2CA963-6-0.woff") format("woff"), url("../fonts/2CA963-6-0.ttf") format("truetype");
+  src: url("../'fonts'/2CA963-6-0.woff2") format("woff2"), url("../fonts/2CA963-6-0.woff") format("woff"), url("../fonts/2CA963-6-0.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Intro';
-  src: url("../fonts/2CA963-0-0.woff2") format("woff2"), url("../fonts/2CA963-0-0.woff") format("woff"), url("../fonts/2CA963-0-0.ttf") format("truetype");
+  src: url("../'fonts'/2CA963-0-0.woff2") format("woff2"), url("../fonts/2CA963-0-0.woff") format("woff"), url("../fonts/2CA963-0-0.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'Intro';
-  src: url("../fonts/2CA963-3-0.woff2") format("woff2"), url("../fonts/2CA963-3-0.woff") format("woff"), url("../fonts/2CA963-3-0.ttf") format("truetype");
+  src: url("../'fonts'/2CA963-3-0.woff2") format("woff2"), url("../fonts/2CA963-3-0.woff") format("woff"), url("../fonts/2CA963-3-0.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Intro';
-  src: url("../fonts/2CA963-9-0.woff2") format("woff2"), url("../fonts/2CA963-9-0.woff") format("woff"), url("../fonts/2CA963-9-0.ttf") format("truetype");
+  src: url("../'fonts'/2CA963-9-0.woff2") format("woff2"), url("../fonts/2CA963-9-0.woff") format("woff"), url("../fonts/2CA963-9-0.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -57,7 +57,7 @@
 /* Support Older IE */
 @font-face {
   font-family: 'IntroOldIE';
-  src: url("../fonts/2CA963-6-0.eot") format("embedded-opentype");
+  src: url("../'fonts'/2CA963-6-0.eot") format("embedded-opentype");
   font-weight: 400;
   font-style: normal;
 }
@@ -71,7 +71,7 @@
 
 @font-face {
   font-family: 'IntroOldIE';
-  src: url("../fonts/2CA963-0-0.eot") format("embedded-opentype");
+  src: url("../'fonts'/2CA963-0-0.eot") format("embedded-opentype");
   font-weight: 700;
   font-style: normal;
 }
@@ -85,7 +85,7 @@
 
 @font-face {
   font-family: 'IntroOldIE';
-  src: url("../fonts/2CA963-3-0.eot") format("embedded-opentype");
+  src: url("../'fonts'/2CA963-3-0.eot") format("embedded-opentype");
   font-weight: 300;
   font-style: normal;
 }
@@ -99,7 +99,7 @@
 
 @font-face {
   font-family: 'IntroOldIE';
-  src: url("../fonts/2CA963-9-0.eot") format("embedded-opentype");
+  src: url("../'fonts'/2CA963-9-0.eot") format("embedded-opentype");
   font-weight: 600;
   font-style: normal;
 }
@@ -115,7 +115,7 @@
 @font-face {
   font-family: 'IntroCaps';
   src: url("../fonts/2CA963-4-0.eot");
-  src: url("../fonts/2CA963-4-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-4-0.woff") format("woff"), url("../fonts/2CA963-4-0.woff2") format("woff2"), url("../fonts/2CA963-4-0.ttf") format("truetype"), url("../fonts/2CA963-4-0.svg#wf") format("svg");
+  src: url("../'fonts'/2CA963-4-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-4-0.woff") format("woff"), url("../fonts/2CA963-4-0.woff2") format("woff2"), url("../fonts/2CA963-4-0.ttf") format("truetype"), url("../fonts/2CA963-4-0.svg#wf") format("svg");
   font-weight: 300;
   font-style: normal;
 }
@@ -123,7 +123,7 @@
 @font-face {
   font-family: 'IntroCaps';
   src: url("../fonts/2CA963-8-0.eot");
-  src: url("../fonts/2CA963-8-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-8-0.woff") format("woff"), url("../fonts/2CA963-8-0.woff2") format("woff2"), url("../fonts/2CA963-8-0.ttf") format("truetype"), url("../fonts/2CA963-8-0.svg#wf") format("svg");
+  src: url("../'fonts'/2CA963-8-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-8-0.woff") format("woff"), url("../fonts/2CA963-8-0.woff2") format("woff2"), url("../fonts/2CA963-8-0.ttf") format("truetype"), url("../fonts/2CA963-8-0.svg#wf") format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -131,7 +131,7 @@
 @font-face {
   font-family: 'IntroCaps';
   src: url("../fonts/2CA963-A-0.eot");
-  src: url("../fonts/2CA963-A-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-A-0.woff") format("woff"), url("../fonts/2CA963-A-0.woff2") format("woff2"), url("../fonts/2CA963-A-0.ttf") format("truetype"), url("../fonts/2CA963-A-0.svg#wf") format("svg");
+  src: url("../'fonts'/2CA963-A-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-A-0.woff") format("woff"), url("../fonts/2CA963-A-0.woff2") format("woff2"), url("../fonts/2CA963-A-0.ttf") format("truetype"), url("../fonts/2CA963-A-0.svg#wf") format("svg");
   font-weight: 600;
   font-style: normal;
 }
@@ -139,7 +139,7 @@
 @font-face {
   font-family: 'IntroCaps';
   src: url("../fonts/2CA963-2-0.eot");
-  src: url("../fonts/2CA963-2-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-2-0.woff") format("woff"), url("../fonts/2CA963-2-0.woff2") format("woff2"), url("../fonts/2CA963-2-0.ttf") format("truetype"), url("../fonts/2CA963-2-0.svg#wf") format("svg");
+  src: url("../'fonts'/2CA963-2-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-2-0.woff") format("woff"), url("../fonts/2CA963-2-0.woff2") format("woff2"), url("../fonts/2CA963-2-0.ttf") format("truetype"), url("../fonts/2CA963-2-0.svg#wf") format("svg");
   font-weight: 700;
   font-style: normal;
 }
@@ -147,21 +147,21 @@
 /* New intro variations for the new consumer nav */
 @font-face {
   font-family: "Intro Light W05";
-  src: url("../fonts/97e479cd-7898-467c-9075-82c1d8faa40c.woff2") format("woff2"), url("../fonts/6170170b-3d7c-4b22-b99e-51fdd74bc644.woff") format("woff");
+  src: url("../'fonts'/97e479cd-7898-467c-9075-82c1d8faa40c.woff2") format("woff2"), url("../fonts/6170170b-3d7c-4b22-b99e-51fdd74bc644.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Intro Regular W05";
-  src: url("../fonts/3212d085-bd6a-4e52-a1a3-41cf21fd5e97.woff2") format("woff2"), url("../fonts/59550b43-38c4-4a50-996a-3d9595e7c875.woff") format("woff");
+  src: url("../'fonts'/3212d085-bd6a-4e52-a1a3-41cf21fd5e97.woff2") format("woff2"), url("../fonts/59550b43-38c4-4a50-996a-3d9595e7c875.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Intro Condensed W05";
-  src: url("../fonts/ae71928a-4836-46d9-97e5-a02cfc9f4613.woff2") format("woff2"), url("../fonts/ddf60796-5158-422c-963e-95a36e536d3c.woff") format("woff");
+  src: url("../'fonts'/ae71928a-4836-46d9-97e5-a02cfc9f4613.woff2") format("woff2"), url("../fonts/ddf60796-5158-422c-963e-95a36e536d3c.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -174,7 +174,7 @@
   padding: 16px 20px;
   text-align: center;
   font-family: 'Intro';
-  font-size: 14px;
+  font-size: 14'px';
   line-height: 14px;
   font-style: normal;
   font-weight: 700;
@@ -295,12 +295,32 @@
       border-radius: 16px 16px 0 0;
       border-bottom: 1px solid #E6EDF1;
       transition: all 0.2s ease;
-    }
 
-    .popularChips {
-      position: absolute;
-      right: -34px;
-      top: -34px;
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .popularChips {
+          font-family: 'Intro';
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 16px;
+          background-color: #FFF9D9;
+          color: #6F4116;
+          padding: 8px;
+          border-radius: 40px;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+      }
     }
 
     &-name {
@@ -310,7 +330,6 @@
       line-height: 42px;
       letter-spacing: 0.36px;
       color: #262626;
-      margin-bottom: 12px;
     }
 
     &-oldPrice {
@@ -1373,6 +1392,32 @@
         margin-right: -16px;
         border-radius: 11px 11px 0 0;
         padding: 24px 16px 0;
+
+        .top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 12px;
+
+          p {
+            margin-bottom: 0;
+          }
+
+          .popularChips {
+            font-family: 'Intro';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 16px;
+            background-color: #FFF9D9;
+            color: #6F4116;
+            padding: 8px;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+          }
+        }
       }
 
       &.premium {
@@ -1421,12 +1466,6 @@
             margin-top: 20px;
           }
         }
-      }
-
-      .popularChips {
-        position: absolute;
-        right: -20px;
-        top: -22px;
       }
 
       &-title {
