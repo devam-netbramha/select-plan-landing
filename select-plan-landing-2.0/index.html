@@ -27,7 +27,7 @@
                   <p class="pricingTable--body-oldPrice empty"></p>
                   <p class="pricingTable--body-price">₹550</p>
                   <p class="pricingTable--body-type">/ 1 Month</p>
-                  <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+                  <a href="javascript:void(0)" class="customBtn customBtn--border popBtn" onclick="basicTogglePop()">Subscribe Now</a>
                 </div>
                 <div class="pricingTable--body-features">
                   <ul class="pricingTable--body-features-listing">
@@ -114,9 +114,9 @@
                   </strike>
                   <p class="pricingTable--body-price">₹800</p>
                   <p class="pricingTable--body-type withChips">/ 6 Months <span class="discountChips">Save 75%</span></p>
-                  <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+                  <a href="javascript:void(0)" class="customBtn customBtn--border popBtn" onclick="standardTogglePop()">Subscribe Now</a>
                 </div>
-                <div class="pricingTable--body-features">
+                <div class=" pricingTable--body-features">
                   <ul class="pricingTable--body-features-listing">
                     <li>
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -228,7 +228,7 @@
                   </strike>
                   <p class="pricingTable--body-price">₹1,200</p>
                   <p class="pricingTable--body-type withChips">/ 12 Months <span class="discountChips">Save 81%</span></p>
-                  <a href="#" class="customBtn">Subscribe Now</a>
+                  <a href="javascript:void(0)" class="customBtn popBtn" onclick="premiumTogglePop()">Subscribe Now</a>
                 </div>
                 <div class="pricingTable--body-features">
                   <ul class="pricingTable--body-features-listing">
@@ -333,7 +333,7 @@
               </div>
             </div>
             <div class="right">
-              <a href="#" class="customBtn customBtn--border">Subscribe Now</a>
+              <a href="javascript:void(0)" class="customBtn customBtn--border popBtn" onclick="starterTogglePop()">Subscribe Now</a>
               <p class="webStarter-note">Note: CIBIL score is <b>NOT</b> available with Starter Plan.</p>
             </div>
           </div>
@@ -366,7 +366,7 @@
               </div>
               <p class="duration">/ 12 Months</p>
               <div class="plan-accordion-card-cta">
-                <a class="customBtn" href="#">Subscribe Now</a>
+                <a class="customBtn popBtn" href="javascript:void(0)" onclick="premiumTogglePop()">Subscribe Now</a>
               </div>
             </div>
             <div class="plan-accordion-card-action">
@@ -480,7 +480,7 @@
             </div>
             <p class="duration">/ 6 Months</p>
             <div class="plan-accordion-card-cta">
-              <a class="customBtn customBtn--border" href="#">Subscribe Now</a>
+              <a class="customBtn customBtn--border popBtn" href="javascript:void(0)" onclick="standardTogglePop()">Subscribe Now</a>
             </div>
             <div class="plan-accordion-card-action" id="standardPlanAction">
               <p>Features you can access</p>
@@ -590,9 +590,9 @@
             </div>
             <p class="duration">/ 1 Months</p>
             <div class="plan-accordion-card-cta">
-              <a class="customBtn customBtn--border" href="#">Subscribe Now</a>
+              <a class="customBtn customBtn--border popBtn" href="javascript:void(0)" onclick="basicTogglePop()">Subscribe Now</a>
             </div>
-            <div class="plan-accordion-card-action">
+            <div class=" plan-accordion-card-action">
               <p>Features you can access</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <mask id="mask0_842_1574" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -686,7 +686,7 @@
               <span class="duration">Single Purchase</span>
             </div>
             <div class="plan-accordion-card-cta">
-              <a class="customBtn customBtn--border" href="#">Subscribe Now</a>
+              <a class="customBtn customBtn--border popBtn" href="javascript:void(0)" onclick="starterTogglePop()">Subscribe Now</a>
             </div>
             <p class="plan-accordion-card-info">Note: <i>CIBIL score is <b>NOT</b> available with Starter Plan.</i></p>
           </div>
@@ -751,6 +751,234 @@
       </div>
     </section>
 
+
+    <div class="planPopup hidden" id="starter">
+      <div class="planPopup-body">
+        <div class="planPopup-close">
+          <a href="javascript:void(0)" class="popBtn" onclick="starterTogglePop()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="15" r="15" fill="#DDDDDD" />
+              <path d="M9.70703 9.70703L20.2953 20.2953" stroke="#2C2C2C" />
+              <path d="M20.293 9.70703L9.70473 20.2953" stroke="#2C2C2C" />
+            </svg>
+          </a>
+        </div>
+        <h2 class="planPopup-heading">Review and decide what’s best for you.</h2>
+        <p class="planPopup-heading-sub">Great choice with the Starter plan! Before you decide, consider the benefits of our Basic Plan.</p>
+        <div class="planPopup-plans">
+          <div class="planPopup-plans-card">
+            <div class="top flex">
+              <p class="heading">Starter Plan</p>
+              <p class="price">₹118</p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Credit Report</span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path d="M2 2L16 16" stroke="#D74025" stroke-width="3" />
+                  <path d="M2 16L16 2" stroke="#D74025" stroke-width="3" />
+                </svg>
+                <span>CIBIL Score</span>
+              </p>
+            </div>
+          </div>
+          <div class="planPopup-plans-card select">
+            <div class="top flex">
+              <p class="heading">Basic Plan</p>
+              <p class="price">₹550</p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Credit Report</span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>CIBIL Score</span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Unlimited access for 1 month</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="planPopup-cta" onclick="starterTogglePop()">Choose Basic Plan</a>
+        <a href="#" class="planPopup-cta planPopup-cta-text">Proceed with Starter Plan</a>
+      </div>
+    </div>
+    <div class="planPopup hidden" id="basic">
+      <div class="planPopup-body">
+        <div class="planPopup-close">
+          <a href="javascript:void(0)" class="popBtn" onclick="basicTogglePop()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="15" r="15" fill="#DDDDDD" />
+              <path d="M9.70703 9.70703L20.2953 20.2953" stroke="#2C2C2C" />
+              <path d="M20.293 9.70703L9.70473 20.2953" stroke="#2C2C2C" />
+            </svg>
+          </a>
+        </div>
+        <h2 class="planPopup-heading">Well done! You chose Basic Plan</h2>
+        <p class="planPopup-heading-sub">Compare it with our Standard plan before finalizing.</p>
+        <div class="planPopup-plans">
+          <div class="planPopup-plans-card">
+            <div class="top">
+              <p class="heading">Basic Plan</p>
+              <p class="price">₹550</p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Unlimited access for <b>1 month</b></span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path d="M2 2L16 16" stroke="#D74025" stroke-width="3" />
+                  <path d="M2 16L16 2" stroke="#D74025" stroke-width="3" />
+                </svg>
+                <span>CIBIL Alerts</span>
+              </p>
+            </div>
+          </div>
+          <div class="planPopup-plans-card select">
+            <p class="saveChip">Save 75%</p>
+            <div class="top">
+              <p class="heading">Standard Plan</p>
+              <p class="price">₹800 <strike>₹3300</strike></p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Unlimited access for <b>6 month</b></span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>CIBIL Alerts</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="planPopup-cta" onclick="basicTogglePop()">Choose Standard Plan</a>
+        <a href="#" class="planPopup-cta planPopup-cta-text">Proceed with Basic Plan</a>
+      </div>
+    </div>
+    <div class="planPopup hidden" id="standard">
+      <div class="planPopup-body">
+        <div class="planPopup-close">
+          <a href="javascript:void(0)" class="popBtn" onclick="standardTogglePop()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="15" r="15" fill="#DDDDDD" />
+              <path d="M9.70703 9.70703L20.2953 20.2953" stroke="#2C2C2C" />
+              <path d="M20.293 9.70703L9.70473 20.2953" stroke="#2C2C2C" />
+            </svg>
+          </a>
+        </div>
+        <h2 class="planPopup-heading">Take a moment to review</h2>
+        <p class="planPopup-heading-sub">Consider upgrading to our Premium Plan.</p>
+        <div class="planPopup-plans">
+          <div class="planPopup-plans-card">
+            <div class="top">
+              <p class="heading">Standard Plan</p>
+              <p class="price">₹800</p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>At ₹133 per month</span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Valid for <b>6 months</b></span>
+              </p>
+            </div>
+          </div>
+          <div class="planPopup-plans-card select">
+            <p class="saveChip">Save 33%</p>
+            <div class="top">
+              <p class="heading">Premium Plan</p>
+              <p class="price">₹1200</p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>At ₹100 per month</span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Valid for <b>12 months</b></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="planPopup-cta" onclick="standardTogglePop()">Choose Premium Plan</a>
+        <a href="#" class="planPopup-cta planPopup-cta-text">Proceed with Standard Plan</a>
+      </div>
+    </div>
+    <div class="planPopup small hidden" id="premium">
+      <div class="planPopup-body">
+        <div class="planPopup-close">
+          <a href="javascript:void(0)" class="popBtn" onclick="premiumTogglePop()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <circle cx="15" cy="15" r="15" fill="#DDDDDD" />
+              <path d="M9.70703 9.70703L20.2953 20.2953" stroke="#2C2C2C" />
+              <path d="M20.293 9.70703L9.70473 20.2953" stroke="#2C2C2C" />
+            </svg>
+          </a>
+        </div>
+        <h2 class="planPopup-heading">Well done! You're going Premium!</h2>
+        <p class="planPopup-heading-sub">You have unlocked all the best features. Enroll to enjoy premium benefits!</p>
+        <div class="planPopup-plans">
+          <div class="planPopup-plans-card select">
+            <p class="saveChip">Save 81%</p>
+            <div class="top">
+              <p class="heading">Premium Plan</p>
+              <p class="price">₹1200 <span class="small">(₹100 per month)</span></p>
+            </div>
+            <div class="bottom">
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Valid for <b>12 months</b></span>
+              </p>
+              <p class="planPopup-plans-features">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                  <path d="M2 7.6L7.33333 13.2L18 2" stroke="#008A00" stroke-width="3" />
+                </svg>
+                <span>Unlimited access for a year</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="javascript:void(0)" class="planPopup-cta" onclick="premiumTogglePop()">Enroll Now</a>
+      </div>
+    </div>
+
     <script src="./js/jquery.min.js"></script>
     <script>
       $(".plan-accordion-card-action").click(function () {
@@ -768,6 +996,33 @@
       $.fx.off = true;
       $('#standardPlanAction:eq(0)').click()
       $.fx.off = animationIsOff;
+    </script>
+    <script>
+      function starterTogglePop() {
+        $("#starter").toggle();
+      }
+      function basicTogglePop() {
+        $("#basic").toggle();
+      }
+      function standardTogglePop() {
+        $("#standard").toggle();
+      }
+      function premiumTogglePop() {
+        $("#premium").toggle();
+      }
+
+      $(document).ready(() => {
+        $(".popBtn").click(function () {
+          $(".planPopup").toggleClass("hidden");
+          if ($(".planPopup").hasClass("hidden")) {
+            // Enable scroll
+            $("body").removeClass('stopScroll');
+          } else {
+            // Disable scroll
+            $("body").addClass('stopScroll');
+          }
+        });
+      });
     </script>
   </body>
 
